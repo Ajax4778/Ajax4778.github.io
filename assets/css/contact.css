@@ -1,0 +1,10 @@
+.contact-icon-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-icon {
+  float: left;
+  padding: 10px;
+  background: #4acaa8;
+}
