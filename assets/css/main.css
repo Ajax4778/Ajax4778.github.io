@@ -56,6 +56,26 @@
 		box-sizing: border-box;
 	}
 
+/* Contact Icon List */
+
+	#four .contact-list {
+		list-style: none;
+		padding-left: 0;
+		margin: 0 auto;
+	}
+
+	#four .contact-item {
+		float: left;
+		padding: 10px;
+		/*background: #4acaa8;*/
+	}
+
+	#four .contact-list:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+
 /* Containers */
 
 	.container {
