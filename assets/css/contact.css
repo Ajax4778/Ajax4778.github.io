@@ -1,10 +1,17 @@
-.contact-icon-list {
+ul.contact-icon-list {
   list-style: none;
   padding-left: 0;
 }
 
-.contact-icon {
+li.contact-list-item {
   float: left;
   padding: 10px;
-  background: #4acaa8;
+  width: 50px;
+  /*background: #4acaa8;*/
+}
+
+ul.contact-icon-list:after {
+  content: '';
+  display: block;
+  clear: both;
 }
