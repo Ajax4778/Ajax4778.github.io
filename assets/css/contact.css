@@ -1,16 +1,16 @@
-ul.contact-icon-list {
+#four .contact-list {
   list-style: none;
   padding-left: 0;
+  margin: 0 auto;
 }
 
-li.contact-list-item {
+#four .contact-item {
   float: left;
   padding: 10px;
-  width: 50px;
   /*background: #4acaa8;*/
 }
 
-ul.contact-icon-list:after {
+#four .contact-list:after {
   content: '';
   display: block;
   clear: both;
