@@ -62,12 +62,12 @@
 		list-style: none;
 		padding-left: 0;
 		display: table;
+		margin: 0 auto;
 	}
 
 	#four .contact-list-item {
 		float: left;
 		padding: 10px;
-		/*background: #4acaa8; green*/
 	}
 
 	#four .contact-list:after {
