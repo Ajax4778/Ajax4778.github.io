@@ -61,7 +61,7 @@
 	#four .contact-list {
 		list-style: none;
 		padding-left: 0;
-		margin: 0 auto;
+		display: table;
 	}
 
 	#four .contact-list-item {
@@ -74,6 +74,10 @@
 		content: '';
 		display: block;
 		clear: both;
+	}
+
+	#four .contact-header {
+		text-align: center;
 	}
 
 /* Containers */
@@ -2597,7 +2601,7 @@
 		/*background-position: top right;*/
 		/*background-repeat: no-repeat;*/
 		/*background-size: cover;*/
-		background: black;
+		background: #eee;
 		content: '';
 		display: block;
 		height: 15em;
@@ -2607,7 +2611,7 @@
 /* Footer */
 
 	#footer {
-		background: #fafafa;
+		background: #eee;
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
