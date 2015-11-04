@@ -2008,6 +2008,12 @@
 
 /* Image */
 
+	.features img:hover {
+		opacity: 0.8;
+		background: black;
+		transition: opacity 0.25s ease-in-out;
+	}
+
 	.image {
 		border-radius: 5px;
 		border: 0;
@@ -2016,7 +2022,7 @@
 	}
 
 		.image img {
-			border-radius: 5px;
+			/*border-radius: 5px;*/
 			display: block;
 		}
 
@@ -2044,12 +2050,12 @@
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			/*border-radius: 100%;*/
 			overflow: hidden;
 		}
 
 			.image.avatar img {
-				border-radius: 100%;
+				/*border-radius: 100%;*/
 				display: block;
 				width: 100%;
 			}
