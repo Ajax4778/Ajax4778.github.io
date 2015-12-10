@@ -2525,7 +2525,7 @@
 			}
 
 			#header > header p {
-				color: lightcyan; /* update color scheme: original #d1f1e9 */
+				color: #dae7f1; /* update color scheme: original #d1f1e9 */
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2553,7 +2553,7 @@
 		}
 
 			#header > nav ul li {
-				border-top: solid 2px ##5a91bf; /* update color scheme: original #5ccfb0 */
+				border-top: solid 2px #5a91bf; /* update color scheme: original #5ccfb0 */
 				display: block;
 				padding: 0;
 			}
