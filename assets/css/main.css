@@ -1598,7 +1598,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: steelblue !important; /* update color scheme: original #4acaa8 */
 		}
 
 	strong, b {
@@ -1750,7 +1750,7 @@
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: steelblue; /* update color scheme: original #4acaa8 */
 		font-size: 3.5em;
 	}
 
@@ -2122,7 +2122,7 @@
 				}
 
 				ul.feature-icons li:before {
-					background: #4acaa8;
+					background: steelblue; /* update color scheme: original #4acaa8 */
 					border-radius: 100%;
 					color: #ffffff;
 					display: block;
@@ -2444,7 +2444,7 @@
 /* Features */
 
 	.features article {
-		border-top: solid 3px #f4f4f4;
+		border-top: solid 3px papayawhip; /* update color scheme: original #f4f4f4 */
 		margin-bottom: 2.25em;
 		padding-top: 2.25em;
 	}
@@ -2479,7 +2479,7 @@
 /* Header */
 
 	#header {
-		background: #4acaa8;
+		background: steelblue; /* update color scheme: original #4acaa8 */
 		color: #d1f1e9;
 		height: 100%;
 		position: fixed;
@@ -2525,7 +2525,7 @@
 			}
 
 			#header > header p {
-				color: #d1f1e9;
+				color: lightcyan; /* update color scheme: original #d1f1e9 */
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2553,7 +2553,7 @@
 		}
 
 			#header > nav ul li {
-				border-top: solid 2px #5ccfb0;
+				border-top: solid 2px ##5a91bf; /* update color scheme: original #5ccfb0 */
 				display: block;
 				padding: 0;
 			}
@@ -2572,7 +2572,7 @@
 
 					#header > nav ul li a.active {
 						background: #fff;
-						color: #4acaa8 !important;
+						color: steelblue !important; /* update color scheme: original #4acaa8 */
 					}
 
 				#header > nav ul li:first-child {
@@ -2589,7 +2589,7 @@
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: solid 6px papayawhip; /* update color scheme: original #f4f4f4 */
 	}
 
 		#main > section > .container {
@@ -2607,7 +2607,7 @@
 		/*background-position: top right;*/
 		/*background-repeat: no-repeat;*/
 		/*background-size: cover;*/
-		background: #eee;
+		background: papayawhip; /* update color scheme: original #eee */
 		content: '';
 		display: block;
 		height: 15em;
@@ -2617,7 +2617,7 @@
 /* Footer */
 
 	#footer {
-		background: #eee;
+		background: papayawhip; /* update color scheme: original #eee */
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
